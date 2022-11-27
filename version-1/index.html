@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web99</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./public/css/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <script src="https://kit.fontawesome.com/69fd600045.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="./public/img/logo.svg" alt="" />
+        <svg class="menu-icon" width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 7C0 6.44772 0.447715 6 1 6H19C19.5523 6 20 6.44772 20 7C20 7.55228 19.5523 8 19 8H1C0.447715 8 0 7.55228 0 7Z" fill="black"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1C0 0.447715 0.447715 0 1 0H19C19.5523 0 20 0.447715 20 1C20 1.55228 19.5523 2 19 2H1C0.447715 2 0 1.55228 0 1Z" fill="black"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 13C0 12.4477 0.447715 12 1 12H19C19.5523 12 20 12.4477 20 13C20 13.5523 19.5523 14 19 14H1C0.447715 14 0 13.5523 0 13Z" fill="black"/>
+        </svg>
+    </header>
+    <div class="menu">
+        <div class="menu_header">
+            <img class="logo" src="./public/img/logo.svg" alt="" />
+            <div class="menu_cross">
+                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5972 0.320237C14.9878 0.710761 14.9878 1.34393 14.5972 1.73445L2.59724 13.7345C2.20672 14.125 1.57355 14.125 1.18303 13.7345C0.792506 13.3439 0.792506 12.7108 1.18303 12.3202L13.183 0.320237C13.5736 -0.0702873 14.2067 -0.0702873 14.5972 0.320237Z" fill="black"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.18303 0.320237C1.57355 -0.0702873 2.20672 -0.0702873 2.59724 0.320237L14.5972 12.3202C14.9878 12.7108 14.9878 13.3439 14.5972 13.7345C14.2067 14.125 13.5736 14.125 13.183 13.7345L1.18303 1.73445C0.792506 1.34393 0.792506 0.710761 1.18303 0.320237Z" fill="black"/>
+                </svg>    
+            </div>
+        </div>
+        <ul class="content">
+          <li class="item">
+            <h5 class="menu-title drop">
+                <a>最新消息</a>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.63 18"><defs><style>.cls-1{fill:#2d4161;fill-rule:evenodd;}</style></defs><title>icon_資產 6</title><g id="圖層_2" data-name="圖層 2"><g id="圖層_1-2" data-name="圖層 1"><path class="cls-1" d="M1.37,0A1.22,1.22,0,0,0,.08.83,1.24,1.24,0,0,0,.55,2.29L4.84,6c1,.87,2.05,1.77,3.1,2.62.41.33.42.51,0,.87-2.41,2-4.79,4.07-7.17,6.12A1.42,1.42,0,0,0,.08,17a1.27,1.27,0,0,0,2.14.68l7.84-6.72c.3-.25.6-.5.89-.76.91-.8.91-1.5,0-2.29l-5-4.3Q4.07,2,2.22.39A1.38,1.38,0,0,0,1.37,0Z"/></g></g></svg>
+            </h5>
+            <ul>
+              <li><a href="">公司公告</a></li>
+              <li><a href="">產品檢驗報告</a></li>
+            </ul>
+          </li>
+          <li class="item">
+            <h5 class="menu-title drop">
+                <a>關於我們</a>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.63 18"><defs><style>.cls-1{fill:#2d4161;fill-rule:evenodd;}</style></defs><title>icon_資產 6</title><g id="圖層_2" data-name="圖層 2"><g id="圖層_1-2" data-name="圖層 1"><path class="cls-1" d="M1.37,0A1.22,1.22,0,0,0,.08.83,1.24,1.24,0,0,0,.55,2.29L4.84,6c1,.87,2.05,1.77,3.1,2.62.41.33.42.51,0,.87-2.41,2-4.79,4.07-7.17,6.12A1.42,1.42,0,0,0,.08,17a1.27,1.27,0,0,0,2.14.68l7.84-6.72c.3-.25.6-.5.89-.76.91-.8.91-1.5,0-2.29l-5-4.3Q4.07,2,2.22.39A1.38,1.38,0,0,0,1.37,0Z"/></g></g></svg>
+            </h5>
+            <ul>
+              <li><a href="">關於我們</a></li>
+              <li><a href="">公司介紹</a></li>
+            </ul>
+          </li>
+          <li class="item">
+            <h5 class="menu-title">
+                <a href="">服務介紹</a>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.63 18"><defs><style>.cls-1{fill:#2d4161;fill-rule:evenodd;}</style></defs><title>icon_資產 6</title><g id="圖層_2" data-name="圖層 2"><g id="圖層_1-2" data-name="圖層 1"><path class="cls-1" d="M1.37,0A1.22,1.22,0,0,0,.08.83,1.24,1.24,0,0,0,.55,2.29L4.84,6c1,.87,2.05,1.77,3.1,2.62.41.33.42.51,0,.87-2.41,2-4.79,4.07-7.17,6.12A1.42,1.42,0,0,0,.08,17a1.27,1.27,0,0,0,2.14.68l7.84-6.72c.3-.25.6-.5.89-.76.91-.8.91-1.5,0-2.29l-5-4.3Q4.07,2,2.22.39A1.38,1.38,0,0,0,1.37,0Z"/></g></g></svg>
+            </h5>
+          </li>
+          <li class="item">
+            <h5 class="menu-title drop">
+                <a>產品介紹</a>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.63 18"><defs><style>.cls-1{fill:#2d4161;fill-rule:evenodd;}</style></defs><title>icon_資產 6</title><g id="圖層_2" data-name="圖層 2"><g id="圖層_1-2" data-name="圖層 1"><path class="cls-1" d="M1.37,0A1.22,1.22,0,0,0,.08.83,1.24,1.24,0,0,0,.55,2.29L4.84,6c1,.87,2.05,1.77,3.1,2.62.41.33.42.51,0,.87-2.41,2-4.79,4.07-7.17,6.12A1.42,1.42,0,0,0,.08,17a1.27,1.27,0,0,0,2.14.68l7.84-6.72c.3-.25.6-.5.89-.76.91-.8.91-1.5,0-2.29l-5-4.3Q4.07,2,2.22.39A1.38,1.38,0,0,0,1.37,0Z"/></g></g></svg>
+            </h5>
+            <ul>
+              <li><a href="">新品推薦</a></li>
+              <li><a href="">經典系列</a></li>
+            </ul>
+          </li>
+          <li class="item">
+            <h5 class="menu-title drop">
+                <a>文章資訊</a>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.63 18"><defs><style>.cls-1{fill:#2d4161;fill-rule:evenodd;}</style></defs><title>icon_資產 6</title><g id="圖層_2" data-name="圖層 2"><g id="圖層_1-2" data-name="圖層 1"><path class="cls-1" d="M1.37,0A1.22,1.22,0,0,0,.08.83,1.24,1.24,0,0,0,.55,2.29L4.84,6c1,.87,2.05,1.77,3.1,2.62.41.33.42.51,0,.87-2.41,2-4.79,4.07-7.17,6.12A1.42,1.42,0,0,0,.08,17a1.27,1.27,0,0,0,2.14.68l7.84-6.72c.3-.25.6-.5.89-.76.91-.8.91-1.5,0-2.29l-5-4.3Q4.07,2,2.22.39A1.38,1.38,0,0,0,1.37,0Z"/></g></g></svg>
+            </h5>
+            <ul>
+              <li><a href="">文章1</a></li>
+              <li><a href="">文章2</a></li>
+            </ul>
+          </li>
+          <li class="item">
+            <h5 class="menu-title">
+                <a href="">檔案下載</a>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.63 18"><defs><style>.cls-1{fill:#2d4161;fill-rule:evenodd;}</style></defs><title>icon_資產 6</title><g id="圖層_2" data-name="圖層 2"><g id="圖層_1-2" data-name="圖層 1"><path class="cls-1" d="M1.37,0A1.22,1.22,0,0,0,.08.83,1.24,1.24,0,0,0,.55,2.29L4.84,6c1,.87,2.05,1.77,3.1,2.62.41.33.42.51,0,.87-2.41,2-4.79,4.07-7.17,6.12A1.42,1.42,0,0,0,.08,17a1.27,1.27,0,0,0,2.14.68l7.84-6.72c.3-.25.6-.5.89-.76.91-.8.91-1.5,0-2.29l-5-4.3Q4.07,2,2.22.39A1.38,1.38,0,0,0,1.37,0Z"/></g></g></svg>
+            </h5>
+          </li>
+          <li class="item">
+            <h5 class="menu-title">
+                <a href="">聯絡我們</a>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.63 18"><defs><style>.cls-1{fill:#2d4161;fill-rule:evenodd;}</style></defs><title>icon_資產 6</title><g id="圖層_2" data-name="圖層 2"><g id="圖層_1-2" data-name="圖層 1"><path class="cls-1" d="M1.37,0A1.22,1.22,0,0,0,.08.83,1.24,1.24,0,0,0,.55,2.29L4.84,6c1,.87,2.05,1.77,3.1,2.62.41.33.42.51,0,.87-2.41,2-4.79,4.07-7.17,6.12A1.42,1.42,0,0,0,.08,17a1.27,1.27,0,0,0,2.14.68l7.84-6.72c.3-.25.6-.5.89-.76.91-.8.91-1.5,0-2.29l-5-4.3Q4.07,2,2.22.39A1.38,1.38,0,0,0,1.37,0Z"/></g></g></svg>
+            </h5>
+          </li>
+        </ul>
+        <div class="menu_search">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9 2C5.13401 2 2 5.13401 2 9C2 12.866 5.13401 16 9 16C12.866 16 16 12.866 16 9C16 5.13401 12.866 2 9 2ZM0 9C0 4.02944 4.02944 0 9 0C13.9706 0 18 4.02944 18 9C18 13.9706 13.9706 18 9 18C4.02944 18 0 13.9706 0 9Z" fill="black"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9428 13.9433C14.3333 13.5528 14.9665 13.5528 15.357 13.9433L19.707 18.2933C20.0975 18.6838 20.0975 19.317 19.707 19.7075C19.3165 20.098 18.6833 20.098 18.2928 19.7075L13.9428 15.3575C13.5523 14.967 13.5523 14.3338 13.9428 13.9433Z" fill="black"/>
+            </svg>
+            <input type="text">
+        </div>
+      </div>
+    <section class="section banner">
+        <div class="swiper-container" id="banner">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="https://images.unsplash.com/photo-1664575195621-a5f347e67554?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="https://images.unsplash.com/photo-1661961110671-77b71b929d52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="https://plus.unsplash.com/premium_photo-1665159098106-6abd78ad483c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="https://images.unsplash.com/photo-1664575196412-ed801e8333a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="https://images.unsplash.com/photo-1669459868647-4c2f1c564052?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80" alt="">
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination container" id="banner-pag"></div>
+          <!-- 箭頭 -->
+          <div class="Bprev arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.63 18"><defs><style>.cls-1{fill:#2d4161;fill-rule:evenodd;}</style></defs><title>icon_資產 6</title><g id="圖層_2" data-name="圖層 2"><g id="圖層_1-2" data-name="圖層 1"><path class="cls-1" d="M1.37,0A1.22,1.22,0,0,0,.08.83,1.24,1.24,0,0,0,.55,2.29L4.84,6c1,.87,2.05,1.77,3.1,2.62.41.33.42.51,0,.87-2.41,2-4.79,4.07-7.17,6.12A1.42,1.42,0,0,0,.08,17a1.27,1.27,0,0,0,2.14.68l7.84-6.72c.3-.25.6-.5.89-.76.91-.8.91-1.5,0-2.29l-5-4.3Q4.07,2,2.22.39A1.38,1.38,0,0,0,1.37,0Z"/></g></g></svg>
+            <!-- <img src="./public/img/icon_arrow_right_blue.svg" alt="" /> -->
+          </div>
+          <div class="Bnext arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.63 18"><defs><style>.cls-1{fill:#2d4161;fill-rule:evenodd;}</style></defs><title>icon_資產 6</title><g id="圖層_2" data-name="圖層 2"><g id="圖層_1-2" data-name="圖層 1"><path class="cls-1" d="M1.37,0A1.22,1.22,0,0,0,.08.83,1.24,1.24,0,0,0,.55,2.29L4.84,6c1,.87,2.05,1.77,3.1,2.62.41.33.42.51,0,.87-2.41,2-4.79,4.07-7.17,6.12A1.42,1.42,0,0,0,.08,17a1.27,1.27,0,0,0,2.14.68l7.84-6.72c.3-.25.6-.5.89-.76.91-.8.91-1.5,0-2.29l-5-4.3Q4.07,2,2.22.39A1.38,1.38,0,0,0,1.37,0Z"/></g></g></svg>
+          </div>
+        </div>
+    </section>
+
+    <section class="section product">
+        <h2 class="title">產品介紹</h2>
+        <div class="container">
+            <div class="row">
+                <div class="product-box col-lg-3 col-6 my-lg-0 my-0_5">
+                    <a href="">
+                        <div class="prod-content">
+                            <div class="product-pic">
+                                <img src="https://images.unsplash.com/photo-1669461734596-b126134d0dfa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="">
+                                <div class="tag">最新上架</div>
+                            </div>
+                            <div class="prod-text">
+                                <h5 class="name">【丹淨生活】月貴妃養顏飲 (7包/盒)</h5>
+                                <p class="price">NTD 1,480</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-box col-lg-3 col-6 my-lg-0 my-0_5">
+                    <a href="">
+                        <div class="prod-content">
+                            <div class="product-pic">
+                                <img src="https://images.unsplash.com/photo-1669472386430-b16f82d318dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="">
+                                <div class="tag">最新上架</div>
+                            </div>
+                            <div class="prod-text">
+                                <h5 class="name">【丹淨生活】月貴妃養顏飲 (7包/盒)</h5>
+                                <p class="price">NTD 1,480</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-box col-lg-3 col-6 my-lg-0 my-0_5">
+                    <a href="">
+                        <div class="prod-content">
+                            <div class="product-pic">
+                                <img src="https://images.unsplash.com/photo-1669467566334-c6c78e445441?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="">
+                                <div class="tag">會員獨享</div>
+                            </div>
+                            <div class="prod-text">
+                                <h5 class="name">【丹淨生活】 周公漢眠舒眠飲 (7包/盒)</h5>
+                                <p class="price">NTD 1,480</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-box col-lg-3 col-6 my-lg-0 my-0_5">
+                    <a href="./product-content.html">
+                        <div class="prod-content">
+                            <div class="product-pic">
+                                <img src="https://images.unsplash.com/photo-1668933896905-561d7c5cf6fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1676&q=80" alt="">
+                                <div class="tag">會員獨享</div>
+                            </div>
+                            <div class="prod-text">
+                                <h5 class="name">【丹淨生活】月貴妃養顏飲 (7包/盒)</h5>
+                                <p class="price">NTD 1,480</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <button class="lookall">看全部</button>
+    </section>
+
+    <section class="section service mb-0" style="background-image:url(https://images.unsplash.com/photo-1669463590201-cc4b0227daf8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=8) ;">
+        <div class="service_mask"></div>
+        <h2 class="title">服務介紹</h2>
+        <div class="line"></div>
+        <p>
+            種過精球：樂時外相類、名主力問！<br>
+            卻關又世大雄出國們然眼環代教父間制去不比由醫房回？著這不？<br>
+            後中康印有舞，裡主口角、年信只軍他食前景廣、<br>
+            <br>
+            有高提則於便這面我千運？<br>
+            來也代業之再不大路一氣而！
+        </p>
+    </section>
+
+    <section class="section news">
+        <h2 class="title">最新消息</h2>
+        <div class="mb-5">
+          <div class="news_group">
+            <div class="news_date">
+              <h5>2021.10.05</h5>
+            </div>
+            <div class="news_title">
+                <p>房地合一稅2.0六大修法重點一覽表文宣內容</p>
+            </div>
+            <svg class="news_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.63 18"><defs><style>.cls-1{fill:#2d4161;fill-rule:evenodd;}</style></defs><title>icon_資產 6</title><g id="圖層_2" data-name="圖層 2"><g id="圖層_1-2" data-name="圖層 1"><path class="cls-1" d="M1.37,0A1.22,1.22,0,0,0,.08.83,1.24,1.24,0,0,0,.55,2.29L4.84,6c1,.87,2.05,1.77,3.1,2.62.41.33.42.51,0,.87-2.41,2-4.79,4.07-7.17,6.12A1.42,1.42,0,0,0,.08,17a1.27,1.27,0,0,0,2.14.68l7.84-6.72c.3-.25.6-.5.89-.76.91-.8.91-1.5,0-2.29l-5-4.3Q4.07,2,2.22.39A1.38,1.38,0,0,0,1.37,0Z"/></g></g></svg>
+          </div>
+          <div class="news_group">
+            <div class="news_date">
+              <h5>2021.10.05</h5>
+            </div>
+            <div class="news_title">
+                <p>房地合一稅2.0六大修法重點一覽表文宣內容</p>
+            </div>
+            <svg class="news_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.63 18"><defs><style>.cls-1{fill:#2d4161;fill-rule:evenodd;}</style></defs><title>icon_資產 6</title><g id="圖層_2" data-name="圖層 2"><g id="圖層_1-2" data-name="圖層 1"><path class="cls-1" d="M1.37,0A1.22,1.22,0,0,0,.08.83,1.24,1.24,0,0,0,.55,2.29L4.84,6c1,.87,2.05,1.77,3.1,2.62.41.33.42.51,0,.87-2.41,2-4.79,4.07-7.17,6.12A1.42,1.42,0,0,0,.08,17a1.27,1.27,0,0,0,2.14.68l7.84-6.72c.3-.25.6-.5.89-.76.91-.8.91-1.5,0-2.29l-5-4.3Q4.07,2,2.22.39A1.38,1.38,0,0,0,1.37,0Z"/></g></g></svg>
+          </div>
+          <div class="news_group">
+            <div class="news_date">
+              <h5>2021.10.05</h5>
+            </div>
+            <div class="news_title">
+                <p>房地合一稅2.0六大修法重點一覽表文宣內容</p>
+            </div>
+            <svg class="news_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.63 18"><defs><style>.cls-1{fill:#2d4161;fill-rule:evenodd;}</style></defs><title>icon_資產 6</title><g id="圖層_2" data-name="圖層 2"><g id="圖層_1-2" data-name="圖層 1"><path class="cls-1" d="M1.37,0A1.22,1.22,0,0,0,.08.83,1.24,1.24,0,0,0,.55,2.29L4.84,6c1,.87,2.05,1.77,3.1,2.62.41.33.42.51,0,.87-2.41,2-4.79,4.07-7.17,6.12A1.42,1.42,0,0,0,.08,17a1.27,1.27,0,0,0,2.14.68l7.84-6.72c.3-.25.6-.5.89-.76.91-.8.91-1.5,0-2.29l-5-4.3Q4.07,2,2.22.39A1.38,1.38,0,0,0,1.37,0Z"/></g></g></svg>
+          </div>
+          <div class="news_group">
+            <div class="news_date">
+              <h5>2021.10.05</h5>
+            </div>
+            <div class="news_title">
+                <p>房地合一稅2.0六大修法重點一覽表文宣內容</p>
+            </div>
+            <svg class="news_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.63 18"><defs><style>.cls-1{fill:#2d4161;fill-rule:evenodd;}</style></defs><title>icon_資產 6</title><g id="圖層_2" data-name="圖層 2"><g id="圖層_1-2" data-name="圖層 1"><path class="cls-1" d="M1.37,0A1.22,1.22,0,0,0,.08.83,1.24,1.24,0,0,0,.55,2.29L4.84,6c1,.87,2.05,1.77,3.1,2.62.41.33.42.51,0,.87-2.41,2-4.79,4.07-7.17,6.12A1.42,1.42,0,0,0,.08,17a1.27,1.27,0,0,0,2.14.68l7.84-6.72c.3-.25.6-.5.89-.76.91-.8.91-1.5,0-2.29l-5-4.3Q4.07,2,2.22.39A1.38,1.38,0,0,0,1.37,0Z"/></g></g></svg>
+          </div>
+          <div class="news_group">
+            <div class="news_date">
+              <h5>2021.10.05</h5>
+            </div>
+            <div class="news_title">
+                <p>房地合一稅2.0六大修法重點一覽表文宣內容</p>
+            </div>
+            <svg class="news_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.63 18"><defs><style>.cls-1{fill:#2d4161;fill-rule:evenodd;}</style></defs><title>icon_資產 6</title><g id="圖層_2" data-name="圖層 2"><g id="圖層_1-2" data-name="圖層 1"><path class="cls-1" d="M1.37,0A1.22,1.22,0,0,0,.08.83,1.24,1.24,0,0,0,.55,2.29L4.84,6c1,.87,2.05,1.77,3.1,2.62.41.33.42.51,0,.87-2.41,2-4.79,4.07-7.17,6.12A1.42,1.42,0,0,0,.08,17a1.27,1.27,0,0,0,2.14.68l7.84-6.72c.3-.25.6-.5.89-.76.91-.8.91-1.5,0-2.29l-5-4.3Q4.07,2,2.22.39A1.38,1.38,0,0,0,1.37,0Z"/></g></g></svg>
+          </div>
+        </div>
+        <button class="lookall">看全部</button>
+    </section>
+
+    <section class="section introduce">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 col-12 mb-md-0 mb-5">
+              <div class="pic">
+                <img src="https://images.unsplash.com/photo-1665686304129-a6e2d16923e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="" />
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="text">
+                <h2 class="title">關於我們</h2>
+                <p>
+                    象職中好：成職們要下此全大事沒精個是哥不清性再為與女話寫動行工年體難一立國體，事能不充合如自力頭這那行響著他一始事，條家她了像、些確詩沒業，望招司。意過種來望。集他路種未個在了界卻出費大家防是圖！時計農古一電是候可及事樣關係童臺到路。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container d-md-flex flex-wrap">
+                <div class="footer_logo">
+                    <img src="./public/img/logo.svg" alt="">
+                </div>
+                <div class="footer_top_right row">
+                    <div class="footer_top_link col-md-8 col-12">
+                        <div class="row">
+                            <div class="col-sm-3 col-6">
+                                <ul>
+                                    <li><a href="">關於我們</a></li>
+                                    <li><a href="">最新消息</a></li>
+                                    <li><a href="">文章資訊</a></li>
+                                    <li><a href="">產品介紹</a></li>
+                                    <li><a href="">服務項目</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 col-6">
+                                <ul>
+                                    <li><a href="">檔案下載</a></li>
+                                    <li><a href="">聯絡我們</a></li>
+                                    <li><a href="">使用條款</a></li>
+                                    <li><a href="">免責聲明</a></li>
+                                    <li><a href="">最多可以</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 col-6">
+                                <ul>
+                                    <li><a href="">關於我們</a></li>
+                                    <li><a href="">最新消息</a></li>
+                                    <li><a href="">文章資訊</a></li>
+                                    <li><a href="">產品介紹</a></li>
+                                    <li><a href="">服務項目</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-3 col-6">
+                                <ul>
+                                    <li><a href="">檔案下載</a></li>
+                                    <li><a href="">聯絡我們</a></li>
+                                    <li><a href="">使用條款</a></li>
+                                    <li><a href="">免責聲明</a></li>
+                                    <li><a href="">最多可以</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_top_list col-md-4 col-12">
+                        <ul class="footer_inform">
+                            <li>
+                                <a href="tel:04-2221-1989">
+                                    <i class="fas fa-phone"></i>
+                                    <span>04-2221-1989</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:123@gmail.com">
+                                    <i class="far fa-envelope"></i>
+                                    <span>123@gmail.com</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <i class="fas fa-home"></i>
+                                    <span>402 臺中市北區一中街96號</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <i class="fas fa-fax"></i>
+                                    <span>0966-588-797</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="footer_social">
+                            <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fab fa-line"></i></a></li>
+                            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                            <li><a href=""><i class="fas fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            Copyright © Web99 All Right Reserved. 網頁設計：Web99
+        </div>
+    </footer>
+
+    <script src="./public/js/jquery/jquery.min.js"></script>
+    <script src="./public/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./public/js/swiper/swiper-bundle.min.js"></script>
+    <script src="./public/js/common.js"></script>
+
+    <script>
+        // banner
+        var Bswiper = new Swiper("#banner", {
+	    loop: true,
+	    slidesPerView: 1,
+	    spaceBetween: 0,
+	    autoplay: {
+		    delay: 5000,
+		    disableOnInteraction: false,
+	    },
+	    pagination: {
+		    el: "#banner-pag",
+		    clickable: true,
+	    },
+	    navigation: {
+		    nextEl: ".Bnext",
+		    prevEl: ".Bprev", 
+	    },
+        speed: 800,
+    });
+    $("#banner").mouseenter(function () {
+	    Bswiper.autoplay.stop();
+    });
+    $("#banner").mouseleave(function () {
+	    Bswiper.autoplay.start();
+    });
+    </script>
+</body>
+</html>

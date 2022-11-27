@@ -1,0 +1,67 @@
+// 最新消息
+.news {
+    background-color: $main-bg;
+    padding: 80px 0;
+    &_group {
+        background-color: #fff;
+        width: calc(100% - 40px);
+        max-width: 840px;
+        margin: 0 auto;
+        box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.12);
+        padding: 10px 15px 10px 10px;
+        border-radius: 25px 0 25px 0;
+        margin-bottom: 15px;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &:hover {
+          .news {
+            &_date {
+                background-color: $main-color;
+            }
+            &_icon {
+                .cls-1 {
+                    fill: $main-color;
+                }
+            }
+          }
+        }
+    }
+    &_date {
+        padding: 5px 10px;
+        background-color: $second-color;
+        border-radius: 15px 0 15px 0;
+        transition: 0.3s ease-in-out;
+        h5 {
+          letter-spacing: 0.8px;
+          color: #fff;
+          margin: 0;
+          line-height: 1.5;
+          font-size: 14px;
+        }
+    }
+    &_title {
+        display: flex;
+        width: 100%;
+        padding: 0 10px;
+        transition: 0.3s ease-in-out;
+        p {
+          letter-spacing: 0.8px;
+          margin: 0;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 1;
+          line-height: 1.5;
+        }
+    }
+    &_icon {
+        width: 10px;
+        transition: 0.3s ease-in-out;
+        .cls-1 {
+            fill: $second-color;
+        }
+    }
+  }

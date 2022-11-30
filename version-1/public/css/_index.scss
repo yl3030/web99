@@ -80,21 +80,9 @@
     margin-bottom: 30px;
 }
 
-.lookall {
-    width: 100px;
-    height: 40px;
-    background-color: $main-color;
-    color: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-    display: block;
-    margin: 0 auto;
-    transition: 0.3s;
-    border-radius: 15px 0 15px 0;
-}
 
-.lookall:hover {
-    background-color: $second-color;
-}
+
+
 
 .section {
     margin-bottom: 80px;

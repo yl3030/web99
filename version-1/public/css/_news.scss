@@ -2,6 +2,9 @@
 .news {
     background-color: $main-bg;
     padding: 80px 0;
+    &_list {
+      margin-bottom: 40px;
+    }
     &_group {
         background-color: #fff;
         width: calc(100% - 40px);
@@ -63,5 +66,13 @@
         .cls-1 {
             fill: $second-color;
         }
+    }
+    &_content {
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.05em;
+      max-width: 1200px;
+      padding: 0 20px 40px;
+      margin: 0 auto;
     }
   }

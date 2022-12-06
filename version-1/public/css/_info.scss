@@ -1,0 +1,110 @@
+.info {
+    &_content {
+        &_date {
+            color: #bababa;
+            margin: 0;
+        }
+    }
+    &-date {
+        font-size: 14px;
+        color: #c4c4c4;
+        margin: 0 0 5px;
+        text-align: center;
+    }
+    &-list {
+        margin-bottom: 50px;
+        &_item {
+            width: 33.3333%;
+            padding: 0 10px;
+            margin-bottom: 40px;
+            a {
+                display: block;
+                box-shadow: 0 1px 15px rgba(0, 0, 0, 0.15);
+                transition: 0.3s ease-in-out;
+                border-radius: 60px 0 60px 0;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                }
+                .text {
+                    padding: 10px 10px 25px;
+                    h5 {
+                        font-size: 22px;
+                        font-weight: 600;
+                        margin-top: 0;
+                        margin-bottom: 5px;
+                        text-align: center;
+                        color: #333;
+                        letter-spacing: 0.08em;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 2;
+                        overflow: hidden;
+                        height: 58px;
+                        line-height: 1.4;
+                        transition: $transisiton-common;
+                    }
+                    .more {
+                        span {
+                            font-size: 14px;
+                            color: #c4c4c4;
+                            margin-right: 5px;
+                            margin-bottom: 3px;
+                        }
+                        svg {
+                            width: 6px;
+                            .cls-1 {
+                                fill: #c4c4c4;
+                            }
+                        }
+                    }
+                }
+                &:hover {
+                    transform: scale(1.05);
+                    .text {
+                        h5 {
+                            color: $main-color;
+                        }
+                    }
+                }
+                .pic {
+                    width: 100%;
+                    padding-bottom: 60%;
+                    position: relative;
+                    img {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 767px) {
+        &-list {
+            &_item {
+                width: 50%;
+                margin-bottom: 20px;
+                &-home {
+                    width: 100%;
+                }
+                a {
+                  .text {
+                    h5 {
+                      font-size: 18px;
+                      height: 48px;
+                    }
+                  }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 450px) {
+        &-list {
+            &_item {
+                width: 100%;
+            }
+        }
+    }
+}

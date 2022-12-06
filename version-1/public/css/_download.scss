@@ -1,0 +1,28 @@
+.download {
+    &_title {
+        width: calc(100% - 25px);
+
+    }
+    &_icon {
+        width: 25px;
+        height: 25px;
+        path {
+            fill: $text-color;
+            transition: $transisiton-common;
+        }
+    }
+    &_group {
+        &:hover {
+            .download {
+                &_title {
+                    color: $main-color;
+                }
+                &_icon {
+                    path {
+                        fill: $main-color;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -5,7 +5,9 @@ $main-bg: #ffeff1;
 $gray-color: #dcdcdc;
 $deeper-gray: #5c5c5c;
 $text-color: #444;
+$white: #fff;
 $font-common: 'Noto Sans TC', sans-serif;
+$transisiton-common: 0.3s ease-in-out;
 
 body {
     font-family: $font-common;
@@ -24,9 +26,20 @@ input, button, textarea {
     outline: none;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 a {
     color: $text-color;
     text-decoration: none;
+    &:hover {
+        color: $text-color;
+    }
 }
 
 .mb-100 { margin-bottom: 100px; }
@@ -533,7 +546,7 @@ a {
 
 .share {
     margin-bottom: 40px;
-    li {
+    a {
         width: 40px;
         height: 40px;
         border-radius: 50%;
@@ -543,6 +556,7 @@ a {
         justify-content: center;
         background-color: #fff;
         margin: 0 5px;
+        cursor: pointer;
         i {
             font-size: 20px;
             color: $gray-color;

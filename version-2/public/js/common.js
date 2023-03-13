@@ -12,6 +12,11 @@ $(".header_search_close").click(function(){
     }
 })
 
+$(".header_menu").click(function(){
+    $(this).toggleClass("active");
+    $(".header_right").slideToggle(500);
+})
+
 
 
 $(".header_nav_main>li.drop").click(function(){
